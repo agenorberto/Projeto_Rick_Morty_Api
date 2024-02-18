@@ -52,7 +52,7 @@ const CardEpisodio = () => {
                                         <Badge value={`Nome do Episódio: ${episodio.name}`} size="large" severity="success"></Badge>
                                     </p>
                                     <p>
-                                        <Badge value={`Date de estreia: ${episodio.air_date}`} size="large" severity="success"></Badge>
+                                        <Badge value={`Date de Estreia: ${episodio.air_date}`} size="large" severity="success"></Badge>
                                     </p>
                                 </div>
                                 <div className="col-12">

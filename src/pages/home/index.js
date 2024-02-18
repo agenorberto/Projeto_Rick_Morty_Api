@@ -5,16 +5,16 @@ const Home = () => {
         <>
             <div className="card flex justify-content-center">
                     <Image src="/image/rick_morty.jpg" 
-                        alt="rick and morty" width="250" />
+                        alt="rick and morty" width="400" />
                 </div>
                 <div className="card flex justify-content-center">
                     <p>
-                        Trabalho realizado com react e consumo de API Rick and Morty.
+                        <b>Trabalho realizado com react e consumo de API Rick and Morty.</b>
                     </p>
                 </div>
                   <div className="card flex justify-content-center">
                     <p>
-                        Projeto Rick and Morty - Projeto Disciplina Arquitetura Front End.
+                        <b>Projeto Rick and Morty - Projeto Disciplina Arquitetura Front End.</b>
                     </p>
                 </div>
         </>

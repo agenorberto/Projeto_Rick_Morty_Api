@@ -49,7 +49,7 @@ const ListLocalizacao = () => {
         <>
             <div className="grid">
                 <div className="col-6 col-offset-3">
-                    <DataTable value={listaLocalizacao} tableStyle={{ minWidth: '50rem' }}>
+                    <DataTable value={listaLocalizacao} tableStyle={{ minWidth: '40rem' }}>
                         <Column field="name" header="Nome da localização"></Column>
                         <Column field="type" header="Tipo da localização"></Column>
                         <Column field="dimension" header="Dimensão da Localização"></Column>

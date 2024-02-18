@@ -49,9 +49,9 @@ const ListEpisodio = () => {
         <>
             <div className="grid">
                 <div className="col-6 col-offset-3">
-                    <DataTable value={listaEpisodios} tableStyle={{ minWidth: '50rem' }}>
+                    <DataTable value={listaEpisodios} tableStyle={{ minWidth: '45rem' }}>
                         <Column field="name" header="Nome do Episódio"></Column>
-                        <Column field="air_date" header="Data de estreia"></Column>
+                        <Column field="air_date" header="Data de Estreia"></Column>
                         <Column header="Ação" body={gerarLink(listaEpisodios)}></Column>
                     </DataTable>
                     <Paginator first={numeroPaginaValor} rows={quantidadeDeLinhas} totalRecords={totalRegistros} onPageChange={proximaPagina} />

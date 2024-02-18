@@ -20,10 +20,10 @@ const TabelaPersonagens = ({personagens}) => {
                         <div className="flex flex-column align-items-center sm:align-items-start gap-3">
                             <div className="flex align-items-center gap-3">
                                 <ul>
-                                    <li>Nome: {personagem.name}</li>
-                                    <li>Status: {personagem.status}</li>
-                                    <li>Espécie: {personagem.species}</li>
-                                    <li>Localização: {personagem.location.name}</li>
+                                    <li><b>Nome:</b> {personagem.name}</li>
+                                    <li><b>Status:</b> {personagem.status}</li>
+                                    <li><b>Espécie:</b> {personagem.species}</li>
+                                    <li><b>Localização:</b> {personagem.location.name}</li>
                                 </ul>
                             </div>
                             <Button link onClick={() => directPersonagem(`/personagens/${personagem.id}`)}>Informações do personagem</Button> 
